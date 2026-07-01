@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Common.Domain", "Common\Clinical.Common.Domain\Clinical.Common.Domain.csproj", "{7E18D31E-2C12-4D98-8D33-C8E5C8724553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Common.Infrastructure", "Common\Clinical.Common.Infrastructure\Clinical.Common.Infrastructure.csproj", "{1ED7F913-8952-4B9D-96BC-9DB32FEA6B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0DBD04DE-C5A7-4708-A69D-73664E0189AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{990D2A42-346D-4796-9FA9-196956BD2A50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5180ABFC-43B8-43FC-968C-1C1326D435BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Common.Application", "Common\Clinical.Common.Application\Clinical.Common.Application.csproj", "{B273EA2D-E573-40C7-A63F-ADB0F7F901C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E18D31E-2C12-4D98-8D33-C8E5C8724553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E18D31E-2C12-4D98-8D33-C8E5C8724553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E18D31E-2C12-4D98-8D33-C8E5C8724553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E18D31E-2C12-4D98-8D33-C8E5C8724553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED7F913-8952-4B9D-96BC-9DB32FEA6B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED7F913-8952-4B9D-96BC-9DB32FEA6B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED7F913-8952-4B9D-96BC-9DB32FEA6B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED7F913-8952-4B9D-96BC-9DB32FEA6B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B273EA2D-E573-40C7-A63F-ADB0F7F901C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B273EA2D-E573-40C7-A63F-ADB0F7F901C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B273EA2D-E573-40C7-A63F-ADB0F7F901C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B273EA2D-E573-40C7-A63F-ADB0F7F901C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
