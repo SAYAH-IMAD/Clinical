@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Common\Clinical.Common.Domain\Clinical.Common.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="bin\" />
+    </ItemGroup>
+
 </Project>

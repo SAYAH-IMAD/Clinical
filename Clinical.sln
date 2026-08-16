@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Patient.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Patient.Application", "Patient\Clinical.Patient.Application\Clinical.Patient.Application.csproj", "{C8B54D1C-0C20-44CB-8597-006CF98809B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical.Patient.Api", "Patient\Clinical.Patient.Api\Clinical.Patient.Api.csproj", "{5565186F-872D-4577-B35D-38F15F3DAD52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{C8B54D1C-0C20-44CB-8597-006CF98809B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B54D1C-0C20-44CB-8597-006CF98809B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B54D1C-0C20-44CB-8597-006CF98809B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5565186F-872D-4577-B35D-38F15F3DAD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5565186F-872D-4577-B35D-38F15F3DAD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5565186F-872D-4577-B35D-38F15F3DAD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5565186F-872D-4577-B35D-38F15F3DAD52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
